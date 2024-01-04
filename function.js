@@ -53,7 +53,8 @@ document.querySelector("#panel_bottom").addEventListener("click",(detail)=>{
         increaseScore();
         makeBubble();
         getNewHit();
-    }
+    }else{
+        makeBubble();
 });
 
 runTimer();
