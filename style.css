@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(violet,indigo);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color:white;
+}
+
+#panel_top{
+    align-items: centre;
+    padding:0 30%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(146, 238, 166);
+    height: 100px;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+.box{
+    color: black;
+    font-weight: 1000;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#panel_bottom{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: calc(100%-100px);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(91, 235, 127);
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.bubble:hover{
+    background-color: rgb(6, 221, 6);
+    cursor: pointer;
+}
